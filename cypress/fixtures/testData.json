@@ -1,0 +1,16 @@
+{
+    "login": {
+        "email": "sywakman@gmail.com",
+        "password": "Automation123$"
+    },
+
+    "product":{
+        "productName": "iPhone"
+    },
+
+    "successMes":{
+        "successMessage": "Success: You have added iPhone to your shopping cart!"
+    }
+
+
+}

@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "cypress": "^15.2.0"
+    "cypress": "^15.2.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
   },
   "name": "cypress-e2erepo",
   "version": "1.0.0",
@@ -172,6 +173,7 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
+    "test:addingToCartTest": "npx cypress run --spec cypress/e2e/tests/addingToCartTest.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sabawoon Yuonus",

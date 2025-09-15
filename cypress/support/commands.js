@@ -23,3 +23,11 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (email, password)=>{
+    cy.visit(''); // This will automatically pick the baseURL we have declared in the config.js file.
+    cy.get('#input-email').type(email);
+    cy.get('#input-password').type(password);
+    cy.get('input.btn.btn-primary').click();
+    cy.get('#content>h2:nth-child(1)').should('be.visible');
+});
