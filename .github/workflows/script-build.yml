@@ -1,9 +1,7 @@
 name: Sanity Build
 
 on:
-  push:
-    paths:
-      - 'cypress/e2e/addingToCartTest.cy.js'
+  workflow_dispatch:
 
 jobs:
   cypress-run:
