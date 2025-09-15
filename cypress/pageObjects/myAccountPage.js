@@ -1,7 +1,7 @@
 class AccountPage {
 
     webLocators = {
-        searchField: '.form-control.input-lg',
+        searchField: '.form-control.input-lgjk',
         clickSearachIcon: '.btn.btn-default.btn-lg',
         iphoneImage: "img[alt= 'iPhone'].img-responsive",
         addToCart: ".button-group>button:nth-child(1)",
