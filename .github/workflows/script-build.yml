@@ -15,6 +15,7 @@ jobs:
           command: npm run test:addingToCartTest
 
       - name: NASA SEWP Public Websites Reports
+        # if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Mochawesome HTML Report
