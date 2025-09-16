@@ -14,7 +14,4 @@ describe('End to End adding to cart automation', () => {
         accountPageObj.verifyIphoneDisplayed().should('exist');
         accountPageObj.verifyItemIsAdded().should('contain', testData.successMes.successMessage);
     });
-
-
-
 });

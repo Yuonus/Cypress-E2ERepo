@@ -1,7 +1,6 @@
 name: Sanity Build
 
-on:
-  workflow_dispatch: 
+on: push
 
 jobs:
   cypress-run:
