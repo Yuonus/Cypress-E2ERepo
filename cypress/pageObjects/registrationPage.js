@@ -58,5 +58,5 @@ clickContinueBtn(){
 
 
 }
-// to add
+
 // export default RegistrationPage;
