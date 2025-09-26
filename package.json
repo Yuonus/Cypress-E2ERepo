@@ -175,7 +175,7 @@
   "scripts": {
     "test:addingToCartTest": "npx cypress run --spec cypress/e2e/tests/addingToCartTest.cy.js",
     "test:registerTest": "npx cypress run --spec cypress/e2e/tests/registerTest.cy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run NO_COLOR=1 cypress run"
   },
   "author": "Sabawoon Yuonus",
   "license": "ISC",
