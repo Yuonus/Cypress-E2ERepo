@@ -35,6 +35,7 @@ describe('Automating the Registration Page', () => {
       regObj.enterPassword(data.password);
       regObj.selectPrivacyPolicyCheckBox();
       regObj.clickContinueBtn();
+      // Comment
     });
   });
 });
