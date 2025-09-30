@@ -19,8 +19,8 @@ pipeline {
         }
         stage('Testing') {
             steps {
-                // bat "npx cypress run --browser ${BROWSER} --spec ${SPEC}"
-                bat "npx cypress run --browser ${BROWSER} --spec ${SPEC} || echo 'Tests failed, check reports'"
+                bat "npx cypress run --browser ${BROWSER} --spec ${SPEC}"
+                // bat "npx cypress run --browser ${BROWSER} --spec ${SPEC} || echo 'Tests failed, check reports'" // not recommended at all.
             }
         }
         stage('Deploying') {
@@ -42,6 +42,8 @@ pipeline {
                 reportTitles: '', 
                 useWrapperFileDirectly: true
             ])
+
+            
         }
     }
 }
