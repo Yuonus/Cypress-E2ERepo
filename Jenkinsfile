@@ -35,7 +35,7 @@ pipeline {
                 allowMissing: false, 
                 alwaysLinkToLastBuild: false, 
                 keepAll: true, 
-                reportDir: 'cypress/report', 
+                reportDir: 'cypress/reports/html', 
                 reportFiles: 'index.html', 
                 reportName: 'HTML Report', 
                 reportTitles: '', 
